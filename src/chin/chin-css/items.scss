@@ -1,5 +1,5 @@
-@import "../../css/variables";
-@import "../../css/main.scss";
+@import '../../css/variables';
+@import '../../css/main.scss';
 
 a:hover {
   text-decoration: none;
@@ -13,7 +13,7 @@ a:hover {
   display: flex;
   flex-direction: row;
 }
-input[type="checkbox"] {
+input[type='checkbox'] {
   display: none;
   &:checked + label {
     .chin-box::before {
@@ -23,7 +23,7 @@ input[type="checkbox"] {
       left: 0;
       right: 0;
       bottom: 0;
-      content: "\2714";
+      content: '\2714';
       font-size: 0.875rem;
       color: white;
       background: #000000;
@@ -599,9 +599,6 @@ input[type="checkbox"] {
   margin: 2px;
 }
 /*--------------RWD------------------*/
-
-@import "../../css/variables";
-@import "../../css/main.scss";
 .chin-rwd-sort-features {
   display: none;
 }
@@ -620,7 +617,7 @@ input[type="checkbox"] {
   }
   .chin-rwd-sort-features {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .chin-rwd-features {
     background: $white;
@@ -656,7 +653,7 @@ input[type="checkbox"] {
   }
   .chin-commodity-item {
     background: #fff;
-    width: 160px;
+    width: 180px;
     height: 260px;
     margin: 0 0 30px 0;
   }
@@ -665,7 +662,7 @@ input[type="checkbox"] {
     font-size: 8px;
   }
   .chin-commodity-item h4 {
-    padding: 10px 15px 15px 15px;
+    padding: 5px 15px 5px 15px;
     font-size: 12px;
   }
   .chin-commodity-item h5 {
@@ -678,7 +675,7 @@ input[type="checkbox"] {
   .chin-watchs {
     width: 120px;
     height: 120px;
-    margin: 0 20px;
+    margin: 0 30px;
   }
   .chin-commodity-item:hover {
     box-shadow: unset !important;
